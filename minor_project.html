@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Places In India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+      #hf{
+    text-align: center;
+    background-image: linear-gradient(120deg,rgb(177, 146, 105),cadetblue);
+    font-family: fantasy;
+    word-spacing: 10px;
+    border-radius: 15px;
+    border-style: outset;
+    border-color:black;
+    width: 100%;
+    left: 0px;
+        }
+        header{
+    font-size: 35px;
+    top: 0px;
+    position: fixed;
+        }
+footer{
+    font-size: 25px;
+    bottom: 0px;
+    position: fixed;
+}
+#flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+        #grid{
+            position: relative;
+            background-image: linear-gradient(270deg,rgb(76, 158, 131),rgb(160, 207, 184),rgb(60, 172, 110));
+            padding: 10px;
+            min-width: 200px;
+            border-radius: 20px;
+            border-style: inset;
+            border-width: 7px;
+            border-color: black;
+            transition: all 0.3s ease-in-out;
+			      cursor: pointer;
+        }
+        #grid:hover {
+			      transform: scale(1.05);
+			      box-shadow: 10px 10px 20px 0px black;
+		    }
+        #title{
+            background-image:linear-gradient(120deg,rgb(238, 160, 16),rgb(255, 255, 255),rgb(1, 153, 1));
+            text-align: center;
+            grid-area: t;
+            font-size: 30px;
+            word-spacing: 5px;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            border-radius: 20px;
+            border-style: groove;
+            border-color: black;
+        }
+        #desc{
+            background-image:linear-gradient(150deg,rgb(101, 201, 201),rgb(210, 210, 238));
+            border-radius: 10px;
+            border-style: solid;
+            margin: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .image{
+            margin: 20px;
+            max-height: 300px;
+            min-height: 300px;
+            min-width: 150px;
+            max-width: 300px;
+            border-radius: 30px;
+            border-style: outset;
+            border-color: grey;
+            box-shadow: 1px 1px 10px 10px black;
+            background-size: cover;
+            animation: i 6s infinite;
+        }
+        .place1{
+            background-image: url("https://assets.traveltriangle.com/blog/wp-content/uploads/2017/07/Agra1.jpg");
+        }
+        .place2{
+            background-image: url("https://cdn.britannica.com/20/189820-050-D650A54D/Red-Fort-Old-Delhi-India.jpg");
+        }
+        .place3{
+            background-image: url("https://images.indianexpress.com/2019/11/qutub-minar.jpg");
+        }
+        .place4{
+            background-image: url("https://karnatakatourism.org/wp-content/uploads/2020/06/Mysuru-Palace-banner-1920_1100.jpg");
+        }
+        .place5{
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Konarka_Temple.jpg/1024px-Konarka_Temple.jpg");
+        }
+        .place6{
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/1024px-The_Golden_Temple_of_Amrithsar_7.jpg");
+        }
+        .place7{
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg/1024px-Shore_Temple_-Mamallapuram_-Tamil_Nadu_-N-TN-C55.jpg");
+        }
+        .place8{
+            background-image: url("https://cdn.telanganatoday.com/wp-content/uploads/2021/10/Charminar.jpg");
+        }
+        @keyframes i {
+            0%{background-position: left;}
+            40%{background-position: center;}
+            80%{background-position: right;}
+            100%{background-position: left;}
+        }
+        body{
+
+            background-image:linear-gradient(100deg,rgb(83, 153, 153),rgb(71, 71, 104));
+        }
+        #na{
+            background-image: linear-gradient(120deg,orange,white,green);
+            border-radius: 20px;
+            text-align: center;
+            border-style: groove;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="flex">
+        <div class="container text-center p-2">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>TAJ MAHAL</u>
+              </div>
+              <div class="col" id="desc">
+                Discover Red Fort in Delhi which is one of the famous places in India. Meet the boss of Indian historical places. If you consider the top 10 historical places in India, Taj Mahal will always be ranking high in the list. Explore the ultimate epitome of love, the Taj Mahal, whose grandeur remains unmatched in history and today this is one of the weekend getaways from Delhi. This opulent white marble structure was commissioned to be built in 1632 by Shah Jahan for his late wife Mumtaz Mahal. It took around 22 years to complete this magnificent structure that is considered one of the most famous historical places in India.<br><br>According to local legend, it was believed that Shah Jahan cut off the hands of all the workers who built the Taj Mahal so that a similar monument could not be built.<br><br>
+                for more information <a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">click here</a>
+              </div>
+              <div class="col image place1">
+              </div>
+            </div>
+          </div>
+          <div class="container text-center p-2">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>RED FORT</u>
+              </div>
+              <div class="col" id="desc">
+                One of the historical tourist places in India, the Red Fort was constructed over ten years from 1638 to 1648. This fort was constructed when Shah Jahan shifted the capital from Agra to Delhi and it was then known as the Qila-e-Mubarak. This octagonal fort is one of the most famous historical places in north India and is also the site where the President gives his speech on Independence Day. The Red fort is truly remarkable and one of the best historical places in India.<br><br>for more information 
+                <a href="https://en.wikipedia.org/wiki/Red_Fort" target="_blank">click here</a>
+              </div>
+              <div class="col image place2">
+              </div>
+            </div>
+          </div>
+          <div class="container text-center p-2">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>QUTUB MINAR</u>
+              </div>
+              <div class="col" id="desc">
+                Regarded as the site of the first Muslim kingdom in northern India, the Qutub Minar is definitely one of the most historical sites in India. It is one of the finest examples of Indo-Muslim architecture with its intricate red sandstone storeys. These are dotted with carvings and verses from the Quran and are mostly in Arabic and Nagari. Qutub Minar is one of the famous historical places in India and is said to have got its name from Qutb-ud-din Aibak who was the first Muslim ruler of North India. The first mosque in India Quwwat-ul-Islam Masjid is also located at the foot of the Qutub Minar.<br><br>for more information
+                <a href="https://en.wikipedia.org/wiki/Qutb_Minar" target="_blank">click here</a>
+              </div>
+              <div class="col image place3">
+              </div>
+            </div>
+          </div>
+
+          <div class="container text-center p-2">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>MYSORE PALACE</u>
+              </div>
+              <div class="col" id="desc">
+                Once the royal abode of a number of rulers, the Mysore Palace is now a museum that has all the royal pictures, clothing and artifacts of the Wodeyar dynasty. This palace is one of the most historical places in India and is frequently visited by several tourists. The palace was built and refined by several emperors throughout the years and is thus an amalgamation of Hindu, Rajput, and Mughal styles making it one of the heritage destinations in India. Glazed tiles, chandeliers, and iron pillars adorn the pavilion inside the temple that is used to host royal weddings.<br><br>for more information
+                <a href="https://en.wikipedia.org/wiki/Qutb_Minar" target="_blank">click here</a>
+              </div>
+              <div class="col image place4">
+              </div>
+            </div>
+          </div>
+          <div class="container text-center p-2">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>KONARK SUN TEMPLE</u>
+              </div>
+              <div class="col" id="desc">
+                Built by the great ruler of the Ganga dynasty, King Narasimhadeva I, along with 1200 artisans, the Konark Temple is magic set in stone. Located on the coast of the Bay of Bengal, this temple signifies the exquisite detailing of ancient architecture and is one of the famous historical places in India. A particularly interesting feat is at the entrance of the temple where two lions are shown crushing elephants and a human body lies at the foot of the elephant.<br><br>for more information
+                <a href="https://en.wikipedia.org/wiki/Konark_Sun_Temple" target="_blank">click here</a>
+              </div>
+              <div class="col image place5">
+              </div>
+            </div>
+          </div>
+          <div class="container text-center p-2">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>GOLDEN TEMPLE</u>
+              </div>
+              <div class="col" id="desc">
+                One of the most famous Gurudwara in the entire world, Sri Harmandir Sahib is one of the important spiritual places in India. While it has been around for a long while, it was rebuilt with pure gold and marble in 1830 by Maharaja Ranjit Singh. Located in the heart of Amritsar, it is visited by more than a hundred thousand pilgrims every day.<br><br>for more information
+                <a href="https://en.wikipedia.org/wiki/Golden_Temple" target="_blank">click here</a>
+              </div>
+              <div class="col image place6">
+              </div>
+            </div>
+          </div>
+          <div class="container text-center p-2">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>SHORE TEMPLE</u>
+              </div>
+              <div class="col" id="desc">
+                Dravidian-style temples dotted with innumerable sculptures are the major attractions of Shore Temple,Mahabalipuram. The stone carvings display Pallava art and took over 200 years to create making this one of the most ancient historical places in India.
+                11 temples called Mandapas lie on both sides of the hills at Mahabalipuram and these have both Dravidian style architecture as well as several Buddhist elements. The Shore Temple, Arjuna's Penance and the Cave temples are some of the most popular tourist attractions of this region.<br><br>for more information
+                <a href="https://en.wikipedia.org/wiki/Shore_Temple" target="_blank">click here</a>
+              </div>
+              <div class="col image place7">
+              </div>
+            </div>
+          </div>
+          <div class="container text-center p-2 ">
+            <div class="row p-2 m-3" id="grid">
+              <div class="col-12" id="title">
+                <u>CHARMINAR</u>
+              </div>
+              <div class="col" id="desc">
+                It was believed that Muhammad Quli Qutb Shah built the Charminar in 1591 to honor Allah. However in reality this historical tourist place in India was built to signify the end of plague in the city. Legend has it that there is a secret tunnel from the monument to Golconda fort but it hasn't been discovered till date. Each minaret of this monument has four stories and every arch has one clock.<br><br>for more information
+                <a href="https://en.wikipedia.org/wiki/Charminar" target="_blank">click here</a>
+              </div>
+              <div class="col image place8">
+              </div>
+            </div>
+          </div>
+          <div id="na">
+          <h3>National Anthem</h3>
+          <audio src="jgm.mp3" controls></audio>
+        </div>
+      </div>
+      <header id="hf">Historical places in INDIA</header> 
+    <footer id="hf">Designed and Developed By B.Sandeep Reddy <a href="https://www.linkedin.com/in/sandeep-reddy-b24911266"><i class="bi bi-linkedin"></i></a></footer>
+</body>
+</html>
